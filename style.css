@@ -1,0 +1,192 @@
+.background-image {
+    background-image: url('./background.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar {
+    height: 100px;
+}
+.navbar-nav a {
+    margin-right:50px;
+    margin-left: 50px;
+    
+    
+}
+#intro{
+     padding-top: 400px;
+     padding-bottom: 400px;
+     padding-left: 50px;
+     padding-right: 700px;
+}
+#Title2 {
+   margin-left: 100px;
+   margin-top: 200px;
+   text-align: center;
+   font-size: 30px;
+}
+.card {
+    width: 500px;
+    display: flex;
+    border-radius: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 100px 10px 10px;
+    background-image: url(background.avif);
+    background-position: center;
+    background-size: cover;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background-image 0.5s ease;
+    
+}
+.row {
+    position: relative;
+    padding-left: 50px;
+}
+.card:hover {
+    background-image: url(logo.jfif); /* Change the background image on hover */
+}
+.card-body {
+    height: 250px;
+}
+.container {
+    width: 85vmin;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    overflow:hidden;
+    border-radius: 8px;
+    background-color:black;
+    box-shadow: 10px 5px 10px wheat;
+}
+.wrapper {
+    width: 100%;
+    display:flex;
+    animation: slide 16s linear infinite;
+    object-fit: fill;
+}
+.header1 {
+    text-align: center;
+    margin-top: 200px;
+}
+.bio{
+    margin-top: 450px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@keyframes slide{
+    50%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    200%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-500%);
+    }
+}
+.header2 {
+    text-align: center;
+    margin-top: 200px;
+}
+.img1 {
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+.img2 {
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+.img3 {
+    height: 300px;
+    width: 500px;
+    border-radius: 5px;
+}
+.container1 {
+    max-width: 800px;
+    height: 600px;
+    margin-top: 200px;
+    margin-left: 50px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+    margin-bottom: 20px;
+
+}
+
+.contact-info h2 {
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-info  {
+    display: inline-block;
+    margin-right: 400px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info a:hover {
+    color: #555;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+    resize: none;
+    
+}
+
+.contact-form button[type="submit"] {
+    width: 230px;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: #555;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+}
